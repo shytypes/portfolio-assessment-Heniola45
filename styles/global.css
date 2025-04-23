@@ -45,11 +45,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 0px 48px 48px 0px;
+  border-radius: 0px 0px 48px 0px;
 }
 
 .profile-container:hover {
-  transform: rotateX('angle');
+  transform: rotateX(5deg);
 }
 
 .picture {
@@ -106,6 +106,9 @@ body {
 }
 
 .navbar-container{
+  background: rgba(45, 45, 45, 0.1);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
   padding-top: 2rem;
   padding-bottom: 2rem;
   padding-left: 4rem;
@@ -148,7 +151,7 @@ ul li a {
   height: auto;
   padding-left: 4rem;
   padding-right: 4rem;
-  padding-top: 2rem;
+  padding-top: 4rem;
 }
 
 h1{
@@ -166,6 +169,8 @@ h1{
 }
 
 .buttons{
+  width: 100%;
+  height: auto;
   padding-top: 2rem;
 }
 
